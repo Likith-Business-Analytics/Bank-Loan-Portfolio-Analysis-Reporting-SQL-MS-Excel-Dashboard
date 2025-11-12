@@ -16,55 +16,55 @@ To develop an interactive and insightful Bank Loan Report with two main dashboar
 **Dashboard 1: Summary & Portfolio Health KPIs:**
 Core Financial and Application Metrics. These KPIs are tracked overall, Month-to-Date (MTD), and with Month-over-Month (MoM) comparison:
 - Total Loan Applications: The total number of loan applications received.
-2. Total Funded Amount: The total value of funds disbursed as loans.
-3. Total Amount Received: The total repayments received from borrowers.
-4. Average Interest Rate: The average interest rate across all loans.
-5. Average Debt-to-Income (DTI) Ratio: The average borrower DTI ratio, used to assess financial health.
+- Total Funded Amount: The total value of funds disbursed as loans.
+- Total Amount Received: The total repayments received from borrowers.
+- Average Interest Rate: The average interest rate across all loans.
+- Average Debt-to-Income (DTI) Ratio: The average borrower DTI ratio, used to assess financial health.
 
 **Good Loan vs. Bad Loan KPIs:**
 Loans are classified as 'Good Loans' (status: 'Fully Paid' and 'Current') or 'Bad Loans' (status: 'Charged Off') to assess portfolio quality.
 
 *Good Loan Metrics:*
-1. Good Loan Application Percentage
-2. Good Loan Applications (Total count)
-3. Good Loan Funded Amount (Total principal disbursed)
-4. Good Loan Total Received Amount (Total repayments)
+- Good Loan Application Percentage
+- Good Loan Applications (Total count)
+- Good Loan Funded Amount (Total principal disbursed)
+- Good Loan Total Received Amount (Total repayments)
 
 *Bad Loan Metrics:*
-1. Bad Loan Application Percentage
-2. Bad Loan Applications (Total count)
-3. Bad Loan Funded Amount (Total principal disbursed)
-4. Bad Loan Total Received Amount (Total repayments)
+- Bad Loan Application Percentage
+- Bad Loan Applications (Total count)
+- Bad Loan Funded Amount (Total principal disbursed)
+- Bad Loan Total Received Amount (Total repayments)
 
 *Loan Status Grid View Metrics:*
 A detailed view that breaks down performance across all specific Loan Status categories, including:
-1. Total Loan Applications
-2. Total Funded Amount
-3. Total Amount Received
-4. MTD Funded Amount
-5. MTD Amount Received
-6. Average Interest Rate
-7. Average Debt-to-Income (DTI) Ratio
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
+- MTD Funded Amount
+- MTD Amount Received
+- Average Interest Rate
+- Average Debt-to-Income (DTI) Ratio
 
 <a href="https://github.com/Likith-Business-Analytics/Bank-Loan-Portfolio-Analysis-Reporting-SQL-MS-Excel-/blob/main/Screenshot%202025-11-12%20125807.png"> View Summary Dashboard</a>
 
 **Dashboard 2: Overview and Segmentation KPIs**
 This dashboard provides visual, segmented analysis of the loan portfolio using three core metrics for comparison: Total Loan Applications, Total Funded Amount, and Total Amount Received.
-1. Monthly Trends by Issue Date: Displaying monthly variations to identify seasonality and growth patterns.
-2. Regional Analysis by State: Visualizing lending activities across different regions.
-3. Loan Term Analysis: Illustrating the distribution of loans across various term lengths (e.g., 36 months, 60 months).
-4. Employee Length Analysis: Showing how borrower employment duration influences loan volume.
-5. Loan Purpose Breakdown: Presenting a breakdown of loans based on borrower motivations (e.g., Debt Consolidation, Credit Card Refinancing).
-6. Home Ownership Analysis: Displaying loan distribution based on borrowers’ home ownership status (Own, Rent, Mortgage).
+- Monthly Trends by Issue Date: Displaying monthly variations to identify seasonality and growth patterns.
+- Regional Analysis by State: Visualizing lending activities across different regions.
+- Loan Term Analysis: Illustrating the distribution of loans across various term lengths (e.g., 36 months, 60 months).
+- Employee Length Analysis: Showing how borrower employment duration influences loan volume.
+- Loan Purpose Breakdown: Presenting a breakdown of loans based on borrower motivations (e.g., Debt Consolidation, Credit Card Refinancing).
+- Home Ownership Analysis: Displaying loan distribution based on borrowers’ home ownership status (Own, Rent, Mortgage).
 
 <a href="https://github.com/Likith-Business-Analytics/Bank-Loan-Portfolio-Analysis-Reporting-SQL-MS-Excel-/blob/main/Screenshot%202025-11-12%20125827.png"> View OverView Dashboard</a>
 
 ## Process
-1.	Data Loading and Cleaning: Ensured data consistency and integrity for type, format, and values.
-2.	SQL Query Development: Developed specific SQL queries to aggregate and calculate all required KPIs (Total, MTD, PMTD, Good/Bad Loan metrics) and segmented data.
-3.	Data Extraction: Exported SQL results into tables/views for import into Microsoft Excel.
-4.	Pivot Table Creation & Validation: Created Pivot Tables in Excel for all required analyses and verified the dashboard figures against the raw SQL output to ensure the accuracy of the final report.
-5.	Dashboard Assembly: Integrated all Pivot Tables and charts into two dynamic dashboards (Summary and Overview) using slicers for interactive filtering.
+- Data Loading and Cleaning: Ensured data consistency and integrity for type, format, and values.
+- SQL Query Development: Developed specific SQL queries to aggregate and calculate all required KPIs (Total, MTD, PMTD, Good/Bad Loan metrics) and segmented data.
+- Data Extraction: Exported SQL results into tables/views for import into Microsoft Excel.
+- Pivot Table Creation & Validation: Created Pivot Tables in Excel for all required analyses and verified the dashboard figures against the raw SQL output to ensure the accuracy of the final report.
+- Dashboard Assembly: Integrated all Pivot Tables and charts into two dynamic dashboards (Summary and Overview) using slicers for interactive filtering.
 
 ## Dashboard
 <img width="1381" height="673" alt="Screenshot 2025-11-12 125807" src="https://github.com/user-attachments/assets/27c7668d-9586-4f4a-b25f-124c20d594ad" />
